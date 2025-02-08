@@ -30,6 +30,6 @@ export class RemixService {
   }
 
   getHello(): string {
-    return 'Hello World!';
+    return 'Graig is a good boy!';
   }
 }

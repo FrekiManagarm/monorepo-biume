@@ -1,1 +1,1 @@
-export * from './remix/remix.service'; 
+export * from './remix/remix.service';

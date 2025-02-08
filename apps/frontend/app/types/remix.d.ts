@@ -1,4 +1,4 @@
-import type { RemixService } from '../../../backend/src/remix/remix.service';
+import type { RemixService } from '@monorepo/backend';
 
 declare module '@remix-run/node' {
   interface AppLoadContext {

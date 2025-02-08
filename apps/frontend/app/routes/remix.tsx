@@ -3,7 +3,7 @@ import { useLoaderData } from '@remix-run/react';
 
 export async function loader({ context }: LoaderFunctionArgs) {
   const { remixService } = context;
-  const hello = await remixService.getHello();
+  const hello = remixService.getHello();
   return json({
     data: hello
   });
